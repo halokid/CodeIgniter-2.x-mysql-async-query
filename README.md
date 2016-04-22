@@ -8,6 +8,14 @@ How to use?
 ========
 see test controller php file, there is select & query functions
 
+you can replace the files in these path or you can copy the functions in the files to your files:
+file path for CI:
+./system/database/DB_driver.php     (search contains word "async" functions)
+./system/database/drivers/mysqli/mysqli_driver.php   (search contains word "async" functions)
+./application/controller/test.php
+
+
+
 
 performance test
 =====

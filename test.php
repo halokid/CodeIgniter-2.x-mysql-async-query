@@ -9,7 +9,7 @@
 **/
 
 
-class Test extends Ysd
+class Test extends CI_Controller
 {
 
     public function __construct()
@@ -18,6 +18,7 @@ class Test extends Ysd
     }
 
     //同步查询数据
+    //sync select data
     public function sync_mysql_select() {
         //sync
         $s = microtime(true);
@@ -30,6 +31,7 @@ class Test extends Ysd
     }
     
     //异步查询数据
+    //async select data
     public function async_mysql_select() {
         //async
         $s = microtime(true);
@@ -43,6 +45,7 @@ class Test extends Ysd
     
     
     //异步操作数据
+    //async query data
     public function async_mysql() {
         //async
         $s = microtime(true);
